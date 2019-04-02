@@ -15,7 +15,7 @@ Grub Theme to replace that boring plain Grub Menu;
 Your Choice Download as Requirement
 
 
-###### INSTALLATION ############\
+### INSTALLATION ############\
 
 ---- extract the files;
 
