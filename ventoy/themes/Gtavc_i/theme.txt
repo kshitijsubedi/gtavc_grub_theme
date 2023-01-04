@@ -1,0 +1,100 @@
+# GTA::VC grub theme by Kshitij Subedi
+# 2subedikshitij@gmail.com
+
+title-text: ""
+desktop-image: "background.png"
+desktop-color: "#000000"
+terminal-font: "Pricedown Regular 28"
+terminal-box: "terminal_box_*.png"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+
+# Keymap
++ label {
+  top = 1%
+  width = 99%
+  align = "right"
+  text = "@KEYMAP_SHORT@"
+  color = "#EFF0F1"
+}
+
+# Ventoy label
++ label {
+  left = 50%-124
+  top = 15%
+  align = "center"
+  text = "ventoy"
+  font = "Pricedown Regular 100"
+  color = "#EE66C5"
+}
+
+# Select OS label
++ label {
+  left = 25%
+  top = 40%-30
+  text = "Select an OS"
+  font = "Pricedown Regular 48"
+  color = "#EFF0F1"
+}
+
+# Boot menu
++ boot_menu {
+  left = 25%
+  top = 40%
+  width = 60%
+  height = 50%
+  align = "center"
+  item_font = "Pricedown Regular 28"
+  item_color = "#EE66C5"
+  #selected_item_color = "#B83694"
+  item_height = 48
+  item_spacing = 8
+  item_pixmap_style = "item_*.png"
+  selected_item_pixmap_style = "selected_item_*.png"
+}
+
+# Ventoy Hotkey Tips
++ label {
+  top = 95%
+  width = 99%
+  align = "right"
+  text = "@VTOY_HOTKEY_TIP@"
+  color = "#EFF0F1"
+}
+
+# Ventoy Memdisk label
++ label {
+  top = 100%-20
+  width = 99%
+  align = "right"
+  text = "@VTOY_MEM_DISK@"
+  color = "#00FF00"
+}
+
+# Navigation keys
++ label {
+  top = 100%-17
+  width = 100%
+  align = "center"
+  # DE
+  # text = "System mit ↑ und ↓ auswählen und mit Enter bestätigen."
+  # EN
+  text = "Use ↑ and ↓ keys to change selection, Enter to confirm"
+  # FR
+  # text = "Choisissez le système avec les flèches du clavier (↑ et ↓), puis validez avec la touche Enter (↲)"
+  # NO
+  # text = "Bruk ↑ og ↓ for å endre menyvalg, velg med Enter"
+  # PT
+  # text = "Use as teclas ↑ e ↓ para mudar a seleção, e ENTER para confirmar"
+  # RU
+  # text = "Используйте клавиши ↑ и ↓ для изменения выбора, Enter для подтверждения"
+  # UA
+  # text = "Використовуйте ↑ та ↓ для вибору, Enter для підтвердження"
+  # zh_CN
+  # text = "使用 ↑ 和 ↓ 键移动选择条，Enter 键确认"
+  font = "DejaVu Sans Regular 12"
+  color = "#FFFFFF"
+}
